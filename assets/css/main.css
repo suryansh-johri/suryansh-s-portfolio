@@ -2271,3 +2271,60 @@ button,
     border-top: 0;
     margin-top: 0;
     padding-top: 0; }
+.blog-post-box {
+    background: #f9f9ff;
+    padding: 2rem;
+    margin-top: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    font-size: 1.05rem;
+    line-height: 1.8;
+}
+
+.blog-title {
+    color: #000; /* black */
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+
+.blog-meta {
+    font-size: 0.95rem;
+    color: #777;
+    font-style: italic;
+    margin-bottom: 1.5rem;
+}
+
+.blog-checklist {
+    list-style: none;
+    padding-left: 0;
+}
+
+.blog-checklist li {
+    margin: 0.5rem 0;
+    padding-left: 1.5rem;
+    position: relative;
+}
+
+.blog-checklist li::before {
+    content: "✔️";
+    position: absolute;
+    left: 0;
+    top: 0.1rem;
+}
+
+blockquote {
+    border-left: 4px solid #ff5e57;
+    padding-left: 1rem;
+    font-style: italic;
+    color: #444;
+    background-color: #fff5f5;
+    margin: 1.5rem 0;
+}
+
+.blog-tags {
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    color: #999;
+}
